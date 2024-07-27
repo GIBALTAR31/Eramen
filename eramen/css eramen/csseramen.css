@@ -1,0 +1,230 @@
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color:#920A0A;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.header img{
+    padding-left: 43px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-right: 162px;
+}
+
+.navbar{
+    padding-top: 87px;
+}
+
+.navbar a{
+    font-family: 'Stalinist One', cursive;
+    padding-right:153px ;
+}
+
+*{
+    margin: 0;
+}
+
+.Body{
+    display: flex;
+    margin: auto;
+}
+
+.Body img{
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-90deg);
+    width: 523.64px;
+    height: 1440px;
+    object-fit: cover;
+    padding-top: 10%;
+    padding-left: 50%;
+    padding-right: 10% ;
+    border-radius: 20px;
+    filter: opacity(50%);
+}
+
+.tulisan-kuning {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Sora', cursive;
+    font-size: 50px;
+    color: #F6FB26;
+    top: 60%;
+    left: 15%;
+}
+
+.tulisan-putih{
+    position: absolute;
+    z-index: 2;
+    font-family: 'Sora', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    color: #FFFFFF;
+    top: 65%;
+    left: 15%;
+}
+
+.containermenu{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding-top: 40%;
+    padding-left: 41%;
+}    
+
+.latestmenu{
+    font-family: 'Stalinist One';
+    font-weight: 400;
+    background-color: #920A0A;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.menu1 img{
+    width: 325px;
+    height: 154px;
+    border-radius: 20px;
+}
+
+.menuterbaru{
+    display: flex;
+    position: absolute;
+    left: 8%;
+    top: 110%;
+    justify-content: space-between;  
+}
+
+
+.menu1{
+    background-color: #920A0A;
+    border-radius: 20px;
+    margin-right: 240px;
+}
+
+.menu1 img{
+    display: flex;
+    width: 100%;   
+}
+
+.namamenu1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Stalinist One';
+    font-size: 20px;
+}
+
+.desc1{
+    display: flex;
+    justify-content: center;
+    line-height: 200%;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 8000;
+    font-size: 12px;
+}
+
+.price1{
+    display: flex;
+    justify-content: center;
+    line-height: 400%;
+    font-family: 'Stalinist One';
+}
+
+.menu2{
+    background-color: #920A0A;
+    border-radius: 20px;
+    margin-right: 240px;    
+}
+
+.menu2 img{
+    display: flex;
+    width: 327ppx;
+    height: 154px;
+    width: 100%;
+    top: 80%;
+    border-radius: 20px;
+}
+
+.namamenu2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Stalinist One';
+    font-size: 20px;
+}
+
+.desc2{
+    display: flex;
+    justify-content: center;
+    line-height: 200%;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 8000;
+    font-size: 12px;
+}
+
+.price2{
+    display: flex;
+    justify-content: center;
+    line-height: 400%;
+    font-family: 'Stalinist One';
+}
+
+.menu3{
+    background-color: #920A0A;
+    border-radius: 20px;
+    
+}
+.menu3 img{
+    display: flex;
+    width: 327ppx;
+    height: 154px;
+    width: 100%;
+    top: 80%;
+    border-radius: 20px;
+}
+
+.namamenu3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Stalinist One';
+    font-size: 20px;
+}
+
+.desc3{
+    display: flex;
+    justify-content: center;
+    line-height: 200%;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 8000;
+    font-size: 12px;
+}
+
+.price3{
+    display: flex;
+    justify-content: center;
+    line-height: 400%;
+    font-family: 'Stalinist One';
+}
+
+.bestseller{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding-top: 70%;
+    padding-left: 41%;
+}    
+
+.best-seller{
+    font-family: 'Stalinist One';
+    font-weight: 400;
+    background-color: #920A0A;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+body{
+    background-color: black;
+}

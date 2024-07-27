@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color:#920A0A;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navbar a:hover{
+    color: #F6FB26;
+}
+
+.header img{
+    padding-left: 43px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-right: 162px;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 87px;
+}
+
+.navbar a{
+    font-family: 'Stalinist One', cursive;
+    padding-right:153px ;
+    color: black;
+}
+
+.Body{
+    display: flex;
+    margin: auto;
+}
+
+.AboutUs1{
+    background-color: #920A0A;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.menu1{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+
+.OurStorydesc{
+    color: white;
+    font-family: 'Stalinist One', cursive;
+    width: 636px;
+    height: 125px;
+    margin-top: 10%;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.AboutUs2{
+    background-color: #920A0A;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.menu1{
+    margin-left: 18%;
+    margin-bottom: 5%;
+}
+
+.OurRamendesc{
+    color: white;
+    font-family: 'Stalinist One', cursive;
+    width: 636px;
+    height: 125px;
+    margin-top: 10%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.OurMenudesc{
+    color: white;
+    font-family: 'Stalinist One', cursive;
+    width: 636px;
+    height: 125px;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.AboutUs3{
+    background-color: #920A0A;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.menu2{
+    display: flex;
+    margin-left: 18%;
+    margin-bottom: 5%;
+}
+
+.footer{
+    display: flex;
+    background-color:#920A0A;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.location{
+    margin-left: 8%;
+    margin-top: 3%;
+    font-family: 'Stalinist One', cursive;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.OpeningHours{
+    margin-right: 1%;
+    margin-top: 3%;
+    font-family: 'Stalinist One', cursive;
+    font-size: 20;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+
+    .header{
+        display: flex;
+        width: 100%;
+        background-color:#920A0A;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    .navbar a:hover{
+        color: #F6FB26;
+    }
+    
+    .header img{
+        padding-left: 5px;
+        padding-top: 5px;
+        width: 20%;
+        height: 15%;
+        padding-bottom: 43px;
+        padding-right: 5%;
+    }
+    
+    .navbar{
+        display: flex;
+        padding-top: 18px;
+        width:100% ;
+    }
+    
+    .navbar a{
+        font-family: 'Stalinist One', cursive;
+        padding-right:5% ;
+        width: 15%;
+        height: 5%;
+        font-size: 13px;
+        color: black;
+    }
+    
+    .Body{
+        display: flex;
+        margin: auto;
+    }
+
+    
+    .AboutUs1{
+        background-color: #920A0A;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Stalinist One', cursive;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .AboutUsMenu img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu1{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    
+    
+    .OurStorydesc{
+        color: white;
+        font-family: 'Stalinist One', cursive;
+        width: 636px;
+        height: 125px;
+        font-size: 8px;
+        margin-top: 10%;
+        margin-left: 5%;
+        justify-content: center;
+    }
+    
+    .AboutUs2{
+        background-color: #920A0A;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Stalinist One', cursive;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .menu1{
+        margin-left: 18%;
+        margin-bottom: 5%;
+        
+    }
+    
+    .OurRamendesc{
+        color: white;
+        font-family: 'Stalinist One', cursive;
+        font-size: 9px;
+        width: 636px;
+        height: 125px;
+        margin-top: 10%;
+        margin-right: 5%;
+        text-align: right;
+    }
+    
+    .OurMenudesc{
+        color: white;
+        font-family: 'Stalinist One', cursive;
+        font-size: 9px;
+        width: 636px;
+        height: 125px;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    
+    .AboutUs3{
+        background-color: #920A0A;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Stalinist One', cursive;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .menu2{
+        display: flex;
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+    
+    
+    .location{
+        margin-left: 8%;
+        margin-top: 3%;
+        font-family: 'Stalinist One', cursive;
+        font-size: 5px;
+        color: white;
+        text-align: center;
+    }
+
+    .footer img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo{
+        width: 20%;
+        height: 15%;
+        margin-left: 28%;
+        margin-top: 3%;
+    }
+    
+    .OpeningHours{
+        margin-left: 23%;
+        margin-top: 3%;
+        font-family: 'Stalinist One', cursive;
+        font-size: 7px;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+}
